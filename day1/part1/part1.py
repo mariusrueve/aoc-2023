@@ -2,7 +2,7 @@ def main():
     # read file line by line and print the line
     calibration_values = []
 
-    with open('1/puzzle_input.txt', 'r') as f:
+    with open('day1/part1/input.txt', 'r') as f:
         for line in f:
             first_digit = None
             last_digit = None
